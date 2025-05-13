@@ -12,6 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -39,6 +40,9 @@
     <!-- Landing Page Hero Section -->
 
     <section class="index-hero">
+        <div data-aos="fade-up"
+     data-aos-duration="2000">
+
         <div class="support-banner">
             <div class="banner-writeup">Support Health, Help <span>save lives!</span></div>
             <div class="sub-writeup">Raise funds for health services and research to make <b> <i>Impact</i> </b> in your community</div>
@@ -48,22 +52,35 @@
             </div>
             <div class="join-over">Join 12k+ people supporting this cause</div>
         </div>
+    </div>
     </section>
 
     <!-- How it work on Landng Page -->
 
+    
     <div class="how-it-work">
         <span>How it works</span>
+
+        <div data-aos="fade-up"
+        data-aos-duration="2000"
+        data-aos-once="true">
         <div class="how-it-work-img">
            <div class="how-to"> <img src="image/campaign.png" alt=""> <span>Choose a campaign or start your own</span></div>
            <div class="how-to"><img src="image/donate.jpg" alt="" ><span>Make donations securely</span></div>
            <div class="how-to"> <img src="image/clock.jpg" alt="" ><span>Track the impact in real-time</span></div>
+        </div>
         </div>
     </div>
 
     <!-- About our crowd funding -->
 
     <div class="about-crowdfunding">
+
+        <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-duration="2000"
+     data-aos-easing="ease-in-sine"
+     data-aos-once="false">
         <div class="about-crd">
         <div class="about-card">
         <div class="ab-cr">About Our Crowdfunding Platform</div>
@@ -74,18 +91,32 @@
     </div>
     <div class="learn-btn"><button>Learn More</button></div>
 </div>
+</div>
+
+<!-- About IMG -->
+<div data-aos="fade-left"
+data-aos-offset="300"
+data-aos-duration="2000"
+data-aos-easing="ease-in-sine"
+data-aos-once="true">
     <div class="about-img">
         <div class="ab-img-1"><img src="image/Frame 23.png" alt=""></div>
         <div class="ab-img-2"><img src="image/Frame 39.jpg" alt=""></div>
+        </div>
     </div>
     </div>
 
 
     <!-- Browse new campaign on landing page -->
 
+
+    <div data-aos="fade-up"
+    data-aos-duration="2000"
+    data-aos-once="true">
+
     <div class="browse-new-cam">
-        <span class="brw-1">Browse New Campaign</span>
-        <span class="brw-2">See how you can make impact in your community</span>
+        <span class="brw-1">Browse New Campaign</span> <br>
+        <span class="brw-2">See how you can make impact in your community</span> <br>
         <span class="brw-3">Campaigns</span>
 
         <div class="browse-new-card">
@@ -150,10 +181,22 @@
             </div>
         </div>
     </div>
+
+    <div data-aos="fade-up"
+    data-aos-duration="2000"
+    data-aos-offset="10"
+    data-aos-once="true">
     <button><a href="individual.html">View more Campaigns</a></button>
     </div>
 
+    </div>
+
+
+
     <!-- Partners -->
+    <div data-aos="fade-up"
+    data-aos-duration="2000"
+    data-aos-once="true">
      <div class="partners">
         <span class="our-p">Our Corporate Partners</span>
         <span class="our-p-writeup">We've made it possible for more than 570 companies to support local causes around the world. We help companies expand their philanthropic footprint with global  nonprofit vetting, grantmaking, charitable gift cards, and digital  campaigns to power cause marketing, disaster response, and employee  giving.</span>
@@ -164,7 +207,8 @@
             <img src="image/cross.png" alt="">
         </div>
      </div>
-
+    </div>
+    </div>
 
     <footer>
         <div class="footer-first-row">
@@ -235,5 +279,9 @@
 <div class="year-created">© 2024 Payaza crowdfunding, Healthcare for the people.</div>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

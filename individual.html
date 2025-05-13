@@ -12,6 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -39,15 +40,27 @@
 
     <!-- Hero Section -->
     <section class="hero-section">
+        <div data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-offset="0"
+        data-aos-once="true">
         <span class="vector">
             <img src="image/Vector.svg" alt="" width="auto">
         <h4> This fundraiser is in an urgent need of funds</h4>
     </span>
         <span >
-            <h3 style="font-size: 16px;">Help Save Baby Omar From Respiratory Distress Syndrome</h3>
+            <h3>Help Save Baby Omar From Respiratory Distress Syndrome</h3>
         </span>
+        </div>
+
+
+        <div data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-offset="0"
+        data-aos-once="true">
+
         <div class="h-sec">
-            <img src="image/boy-patient.jpg" alt="" width="auto" >
+            <img src="image/boy-patient.jpg" alt="" >
 
             <div class="hero-card">
 
@@ -94,9 +107,14 @@
             </div>
         </div>
     </div>
+</div>
     </section>
 
     <section class="info-about-sickness"> 
+        <div data-aos="fade-right"
+        data-aos-duration="2000"
+        data-aos-offset="0"
+        data-aos-once="true">
         <div class="infos">
             <ul>
                 <li><a href="#"><i class="fa-solid fa-soap"></i></i> Story</a></li>
@@ -105,7 +123,14 @@
                 <li><a href="#"><i class="fa-solid fa-comment"></i>Comments</a></li>
             </ul>
         </div>
+        </div>
 
+
+
+        <div data-aos="fade-right"
+        data-aos-duration="2000"
+        data-aos-offset="0"
+        data-aos-once="true">
         <div class="story">
             Help Save Baby Omar from Respiratory Distress Syndrome <br>
             Baby Omar was born prematurely and is fighting for his life in the NICU. He’s been diagnosed with Respiratory Distress Syndrome (RDS), a condition that makes it difficult for him to breathe on his own. <br>
@@ -122,6 +147,7 @@
             <button class="info-btn2">Share Omars’s Story</button>
         </div>
          <br>
+        </div>
 
         <span class="any-quest">Got any questions? Please  check FAQ section. Or Contact us
             <div class="so-logo">
@@ -201,5 +227,9 @@
 <div class="year-created">© 2024 Payaza crowdfunding, Healthcare for the people.</div>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
