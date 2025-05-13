@@ -240,7 +240,7 @@ body{
 .browse-new-card{
     display: flex;
     align-items: center;
-    align-self: stretch;
+    /* align-self: stret; */
     margin: auto;
     margin-left: 120px;
     margin-right: 120px;
